@@ -30,6 +30,11 @@ h1 {
     right: 30px;
     z-index: 10;
     cursor: pointer;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    width: 100%
 }
 
 .line {
@@ -57,4 +62,12 @@ h1 {
 #links:hover {
     font-size: 20px;
     text-decoration: underline;
+}
+
+#links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: monospace;
+    font-size: 20px;
 }
